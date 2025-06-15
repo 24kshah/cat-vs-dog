@@ -32,7 +32,6 @@ __pycache__/
 # Environment/config files
 .env
 *.env
-runtime.txt
 
 # Uploads and temporary data (runtime only)
 static/uploads/
