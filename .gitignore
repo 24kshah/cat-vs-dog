@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Streamlit and temp files
+.streamlit/
+*.tfrecords
+*.tmp
+*.bak
+
+# Model files (if large)
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Environment/config files
+.env
+*.env
+runtime.txt
+
+# Uploads and temporary data
+static/uploads/
+data/
