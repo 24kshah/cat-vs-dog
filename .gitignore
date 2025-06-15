@@ -22,17 +22,18 @@ __pycache__/
 *.tmp
 *.bak
 
-# Model files (if large)
-*.h5
+# Model files (ignore all except your model)
 *.hdf5
 *.pkl
 *.joblib
+# DON'T ignore your main model
+!cat_dog_classifier.h5
 
 # Environment/config files
 .env
 *.env
 runtime.txt
 
-# Uploads and temporary data
+# Uploads and temporary data (runtime only)
 static/uploads/
 data/
